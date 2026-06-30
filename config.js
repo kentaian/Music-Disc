@@ -5,10 +5,10 @@ const config = {
     // Lavalink node list
     nodeList: [
         {
-            id: 'Node 1',
-            hostname: 'lavalink.jirayu.net',
-            port: 13592,
-            password: 'youshallnotpass'
+            id: 'Singapore Node',
+            hostname: 'sg1-nodelink.nyxbot.app',
+            port: 3000,
+            password: 'nyxbot.app/support'
         }
     ],
 
