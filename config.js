@@ -6,8 +6,8 @@ const config = {
     nodeList: [
         {
             id: 'Node 1',
-            hostname: 'localhost',
-            port: 2333,
+            hostname: 'lavalink.jirayu.net',
+            port: 13592,
             password: 'youshallnotpass'
         }
     ],
