@@ -22,7 +22,7 @@ const config = {
         slashCommand            : true,                 // Whether to enable slash command
 
         // OAUTH2 mode requires setting 'admin', 'clientSecret' value
-        admin                   : [],                   // Admin users, It must be the user ID (string[])
+        admin                   : ['636022477797064727'],                   // Admin users, It must be the user ID (string[])
 
         /**
          * DYNAMIC mode: The first user to execute a command becomes the DJ
@@ -30,7 +30,7 @@ const config = {
          */
         djMode                  : 'DYNAMIC',            // DJ mode: 'STATIC' (config.js based) or 'DYNAMIC' (first user to execute command based)
         dj                      : [],                   // DJ users, It must be the user ID (string[])
-        djRoleId                : '',                   // DJ role ID, members with this role have DJ permissions (string)
+        djRoleId                : '1521205232653177063',                   // DJ role ID, members with this role have DJ permissions (string)
         djLeave: {
             mode: 'PLAY',       // 'PLAY' = next DJ on successful /play; 'COOLDOWN' = auto-assign after cooldown
             cooldown: 5000,     // Cooldown in ms, only used in COOLDOWN mode (default: 5000ms)
@@ -40,16 +40,16 @@ const config = {
 
         name                    : 'Music Disc',
         prefix                  : '+',                  // Text command prefix
-        status                  : 'online',             // 'online' | 'idle' | 'dnd'
+        status                  : 'idle',             // 'online' | 'idle' | 'dnd'
         activity: {
             type                : 0,                    // https://discord.com/developers/docs/topics/gateway-events#activity-object-activity-types
-            name                : '+help | music',
+            name                : 'Here goes your DJ',
             // state               : '',
             // url                 : '',                // The streaming type currently only supports Twitch and YouTube. Only https://twitch.tv/ and https://youtube.com/ urls will work.
         },
         embedsColors: {
-            message             : '#FFFFFF',            // Message embed color
-            success             : '#FFFFFF',            // Success embed color
+            message             : '#ec6c06',            // Message embed color
+            success             : '#ec6c06',            // Success embed color
             error               : '#FF0000',            // Error embed color
             warning             : '#FFFF00',            // Warning embed color
         },
@@ -59,7 +59,7 @@ const config = {
         },
         // Auto leave channel settings
         autoLeave: {
-            enabled             : true,
+            enabled             : false,
             cooldown            : 5000,         // ms
         },
 
