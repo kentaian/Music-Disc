@@ -15,8 +15,8 @@ const config = {
     ],
 
     spotify: {
-        clientId: 'ef5e97b3b86d4faf8d9bc6c0b5e56fbc',               // If you want to use Spotify to play songs, you need to set up Spotify credentials.
-        clientSecret: '34bca4a43f0446f1af069e5eec93a27c'            // https://developer.spotify.com/documentation/web-api
+        clientId: '',               // If you want to use Spotify to play songs, you need to set up Spotify credentials.
+        clientSecret: ''            // https://developer.spotify.com/documentation/web-api
     },
 
     bot: {
