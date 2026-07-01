@@ -5,12 +5,13 @@ const config = {
     // Lavalink node list
     nodeList: [
         {
-            id: 'Private HF Node',
-            hostname: 'kentaian-dj-alex-node.hf.space',
-            port: 443,
-            password: 'youshallnotpass',
-            secure: true
+            id: 'NyxBot SG1',
+            hostname: 'sg1-nodelink.nyxbot.app',
+            port: 3000,
+            password: 'nyxbot.app/support',
+            secure: false
         },
+        
     ],
 
     spotify: {
