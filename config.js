@@ -5,23 +5,12 @@ const config = {
     // Lavalink node list
     nodeList: [
         {
-            id: 'Singapore Horizxon',
-            hostname: 'lava1.horizxon.studio',
-            port: 80,
-            password: 'horizxon.studio'
+            id: 'Private HF Node',
+            hostname: 'kentaian-dj-alex-node.hf.space',
+            port: 443,
+            password: 'youshallnotpass',
+            secure: true
         },
-        {
-            id: 'Singapore NyxBot 2',
-            hostname: 'sg2-nodelink.nyxbot.app',
-            port: 3000,
-            password: 'nyxbot.app/support'
-        },
-        {
-            id: 'Global Jirayu',
-            hostname: 'lavalink.jirayu.net',
-            port: 13592,
-            password: 'youshallnotpass'
-        }
     ],
 
     spotify: {
