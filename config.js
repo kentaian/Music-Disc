@@ -5,16 +5,28 @@ const config = {
     // Lavalink node list
     nodeList: [
         {
-            id: 'Singapore Node',
-            hostname: 'sg1-nodelink.nyxbot.app',
+            id: 'Singapore Horizxon',
+            hostname: 'lava1.horizxon.studio',
+            port: 80,
+            password: 'horizxon.studio'
+        },
+        {
+            id: 'Singapore NyxBot 2',
+            hostname: 'sg2-nodelink.nyxbot.app',
             port: 3000,
             password: 'nyxbot.app/support'
+        },
+        {
+            id: 'Global Jirayu',
+            hostname: 'lavalink.jirayu.net',
+            port: 13592,
+            password: 'youshallnotpass'
         }
     ],
 
     spotify: {
-        clientId: '',               // If you want to use Spotify to play songs, you need to set up Spotify credentials.
-        clientSecret: ''            // https://developer.spotify.com/documentation/web-api
+        clientId: 'ef5e97b3b86d4faf8d9bc6c0b5e56fbc',               // If you want to use Spotify to play songs, you need to set up Spotify credentials.
+        clientSecret: '34bca4a43f0446f1af069e5eec93a27c'            // https://developer.spotify.com/documentation/web-api
     },
 
     bot: {
@@ -42,10 +54,10 @@ const config = {
         prefix                  : '+',                  // Text command prefix
         status                  : 'idle',             // 'online' | 'idle' | 'dnd'
         activity: {
-            type                : 0,                    // https://discord.com/developers/docs/topics/gateway-events#activity-object-activity-types
-            name                : 'Here goes your DJ',
+            type                : 1,                    // https://discord.com/developers/docs/topics/gateway-events#activity-object-activity-types
+            name                : 'music you might like',
             // state               : '',
-            // url                 : '',                // The streaming type currently only supports Twitch and YouTube. Only https://twitch.tv/ and https://youtube.com/ urls will work.
+            url                 : 'https://twitch.tv/nocopyrightsounds',                // The streaming type currently only supports Twitch and YouTube. Only https://twitch.tv/ and https://youtube.com/ urls will work.
         },
         embedsColors: {
             message             : '#ec6c06',            // Message embed color
@@ -54,8 +66,8 @@ const config = {
             warning             : '#FFFF00',            // Warning embed color
         },
         volume: {
-            default             : 50,
-            max                 : 100,
+            default             : 100,
+            max                 : 200,
         },
         // Auto leave channel settings
         autoLeave: {
